@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 0;
+}
+
+.strataleft {
+    background-image: url(bg.jpg);
+    width: 35%;
+    border: 1px solid black;
+    height: 100vh;
+    text-align: right;
+    background-size: auto, 150%;
+    position: fixed;
+}
+
+.strataleftitem {
+    margin-top: 250px;
+    margin-right: 50px;
+}
+
+.strataimg {
+    border-radius: 50%;
+}
+
+.stratatext {
+    margin-left: 50%;
+    width: 50%;
+    font-size: 20px;
+}
+
+.strataright {
+    border: 1px solid black;
+    width: 65%;
+    text-align: left;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+}
+
+.stratarighttext1 {
+    color: grey;
+    width: 65%;
+    font-size: 35px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    right: 200px;
+}
+
+.stratarighttext2 {
+    font-size: 20px;
+    color: gray;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    right: 150px;
+}
+
+.line {
+    border: 1px gray;
+}
